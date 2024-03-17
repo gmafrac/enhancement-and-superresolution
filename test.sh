@@ -2,8 +2,8 @@
 > all_results.txt
 
 for i in {1..8}; do
-    input_file="case$(printf "%02d" $i).in"
-    expected_output_file="case$(printf "%02d" $i).out"
+    input_file="test_cases/case$(printf "%02d" $i).in"
+    expected_output_file="test_cases/case$(printf "%02d" $i).out"
 
     echo "Running test case $i"
     echo "Case $i:"  >> all_results.txt
